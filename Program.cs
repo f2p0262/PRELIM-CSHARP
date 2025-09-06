@@ -9,12 +9,15 @@ namespace GameApp
         {
             Shield Shield = new Shield("Shield", 20);
             Shield.UseItem();
+            Shield.ShowInfo();
 
             Potion Potion = new Potion("Potion", 50);
             Potion.UseItem();
+            Potion.ShowInfo();
 
            
         }
 
     }
 }
+
